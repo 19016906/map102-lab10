@@ -13,9 +13,9 @@
 		EECFDBF12364DBC100EABC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECFDBEF2364DBC100EABC46 /* LaunchScreen.storyboard */; };
 		EECFDBFC2364DBC100EABC46 /* HomeownerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFDBFB2364DBC100EABC46 /* HomeownerTests.swift */; };
 		EECFDC072364DBC100EABC46 /* HomeownerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFDC062364DBC100EABC46 /* HomeownerUITests.swift */; };
-		EECFDC192364E19B00EABC46 /*  Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFDC182364E19B00EABC46 /*  Item.swift */; };
 		EECFDC1B2364E31B00EABC46 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFDC1A2364E31B00EABC46 /* ItemStore.swift */; };
 		EECFDC1D2364E6F900EABC46 /* itemviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFDC1C2364E6F900EABC46 /* itemviewcontroller.swift */; };
+		EEE2A283236CCB1500624F84 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE2A282236CCB1500624F84 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +48,9 @@
 		EECFDC022364DBC100EABC46 /* HomeownerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeownerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECFDC062364DBC100EABC46 /* HomeownerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeownerUITests.swift; sourceTree = "<group>"; };
 		EECFDC082364DBC100EABC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EECFDC182364E19B00EABC46 /*  Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Item.swift"; sourceTree = "<group>"; };
 		EECFDC1A2364E31B00EABC46 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		EECFDC1C2364E6F900EABC46 /* itemviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemviewcontroller.swift; sourceTree = "<group>"; };
+		EEE2A282236CCB1500624F84 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +106,9 @@
 				EECFDBED2364DBC000EABC46 /* Assets.xcassets */,
 				EECFDBEF2364DBC100EABC46 /* LaunchScreen.storyboard */,
 				EECFDBF22364DBC100EABC46 /* Info.plist */,
-				EECFDC182364E19B00EABC46 /*  Item.swift */,
 				EECFDC1A2364E31B00EABC46 /* ItemStore.swift */,
 				EECFDC1C2364E6F900EABC46 /* itemviewcontroller.swift */,
+				EEE2A282236CCB1500624F84 /* Item.swift */,
 			);
 			path = Homeowner;
 			sourceTree = "<group>";
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EECFDC192364E19B00EABC46 /*  Item.swift in Sources */,
+				EEE2A283236CCB1500624F84 /* Item.swift in Sources */,
 				EECFDC1D2364E6F900EABC46 /* itemviewcontroller.swift in Sources */,
 				EECFDC1B2364E31B00EABC46 /* ItemStore.swift in Sources */,
 				EECFDBE72364DBBF00EABC46 /* AppDelegate.swift in Sources */,

@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let itemStore = ItemStore()
         // Access the ItemsViewController and set its item store
         let itemsController = window!.rootViewController as! itemviewcontroller
-        itemsController.itemstore = itemStore
+        itemsController.itemStore = itemStore
         // Override point for customization after application launch.
         return true
     }
